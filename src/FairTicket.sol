@@ -2,7 +2,7 @@
 pragma solidity ^0.8.29;
 
 import {Project, Participant, LotteryResult, ProjectStatus} from "./Model.sol";
-import {Ownable} from "@openzeppelin/contracts//access/Ownable.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {MerkleProof} from "@openzeppelin/contracts//utils/cryptography/MerkleProof.sol";
 
 // 使用openzeppelin封装的Ownable合约进行合约的权限控制。contract XX is YY 相当于XX合约继承了YY合约的一些属性和功能，可以在XX合约中直接使用。

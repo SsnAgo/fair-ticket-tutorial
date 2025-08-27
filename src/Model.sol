@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // src/Model.sol
 pragma solidity ^0.8.29;
 
